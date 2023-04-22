@@ -81,3 +81,16 @@ body {
 .atraer {
     margin-top: -10px;
 }
+
+.nosotros {
+    float: left;
+    width: 60%;
+    text-align: left;
+   
+}
+
+
+
+.nosotros span {
+    text-decoration:underline
+}
