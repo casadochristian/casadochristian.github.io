@@ -83,14 +83,17 @@ body {
 }
 
 .nosotros {
-    float: left;
-    width: 60%;
-    text-align: left;
-   
+    text-align: center;
+    width: 100%;    
 }
-
-
 
 .nosotros span {
     text-decoration:underline
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    align-items: center;
 }
