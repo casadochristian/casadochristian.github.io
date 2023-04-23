@@ -84,16 +84,16 @@ body {
 
 .nosotros {
     text-align: center;
-    width: 100%;    
+    width: 100%;   
 }
 
 .nosotros span {
-    text-decoration:underline
+    text-decoration:underline;
+    font-size:18px;
 }
 
-img{
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    align-items: center;
+.imagen_coche{
+    text-align: center;
+    display: block;
+    border:solid black 1px;   
 }
