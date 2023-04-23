@@ -92,8 +92,60 @@ body {
     font-size:18px;
 }
 
-.imagen_coche{
+.imagen_coche {
     text-align: center;
-    display: block;
-    border:solid black 1px;   
+    
+}
+
+#img1 {
+    height:170px;
+    width:300px;
+    border:solid black 1px;
+    border-radius: 3px;
+    padding: 2px;    
+}
+
+#img1:active{
+    padding: 5px;
+}
+
+#img2 {
+    height:170px;
+    width:300px;
+    border:solid black 1px;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+#img2:active{
+    padding: 5px;
+}
+
+#img3 {
+    height:168px;
+    width:300px;
+    border:solid black 1px;
+    border-radius: 3px; 
+    margin-left: 10px;
+    padding: 2px;
+    margin-top:1px;
+}
+
+#img3:active{
+    padding: 5px;
+}
+
+#img4 {
+    height:168px;
+    width:300px;
+    border:solid black 1px;
+    border-radius: 3px;
+    padding: 2px; 
+    margin-left: 10px;
+    margin-top:1px;
+}
+
+#img4:active{
+    padding: 5px;
 }
