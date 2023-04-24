@@ -6,6 +6,7 @@ body{
 
 body h2{
     margin-top: 40px;
+    text-decoration: underline;
 }
 
 body p{
@@ -14,24 +15,31 @@ body p{
 }
 
 .footer_final {
-   height: 100%;
+    
+    text-align: center;
+    margin-bottom: 0px;
 }
 
-.logo_footer{
+.logo_footer img{
     margin-top: 30px;
     height: 100px;
     width: 100px;
-    text-align: center;
-}   
+    margin-left: 1300px;
+    display: inline-block;
+    border-radius: 12px;
+}  
 
-.footer_final a{
+.enlaces a {
     text-decoration: none;
-    margin-top: 100px;
-    text-align: center;
-    color: rgb(0, 0, 0);
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 3px;
+    letter-spacing: 2px;
+    margin: 0px;    
 }
 
-.logo_footer{
-    height: 200px;
-    width: 200px;
+.enlaces a:hover {
+    border: solid lightblue 1px;
+    border-radius: 3px;
+    
 }
