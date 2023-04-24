@@ -1,0 +1,37 @@
+body{
+    background-color: #efefef;
+    width: 100%;
+    text-align: center;
+}
+
+body h2{
+    margin-top: 40px;
+}
+
+body p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer_final {
+   height: 100%;
+}
+
+.logo_footer{
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}   
+
+.footer_final a{
+    text-decoration: none;
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.logo_footer{
+    height: 200px;
+    width: 200px;
+}

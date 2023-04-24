@@ -94,7 +94,7 @@ body {
 
 .imagen_coche {
     text-align: center;
-    
+    margin-bottom: 15px;
 }
 
 #img1 {
@@ -106,7 +106,7 @@ body {
 }
 
 #img1:active{
-    padding: 5px;
+    border: inset black 3px;
 }
 
 #img2 {
@@ -119,11 +119,11 @@ body {
 }
 
 #img2:active{
-    padding: 5px;
+    border: inset black 3px;
 }
 
 #img3 {
-    height:168px;
+    height:170px;
     width:300px;
     border:solid black 1px;
     border-radius: 3px; 
@@ -133,11 +133,11 @@ body {
 }
 
 #img3:active{
-    padding: 5px;
+    border: inset black 3px;
 }
 
 #img4 {
-    height:168px;
+    height:170px;
     width:300px;
     border:solid black 1px;
     border-radius: 3px;
@@ -147,5 +147,25 @@ body {
 }
 
 #img4:active{
-    padding: 5px;
+    border: inset black 3px;
+}
+
+.footer_final {
+    background-color: #30A6FF;
+    
+    height: 100%;
+}
+
+.logo_footer{
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+    margin-left: 1300px;
+}   
+
+.footer_final a{
+    text-decoration: none;
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
