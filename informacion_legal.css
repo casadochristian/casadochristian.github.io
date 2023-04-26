@@ -39,7 +39,8 @@ body p{
 }
 
 .enlaces a:hover {
-    border: solid lightblue 1px;
-    border-radius: 3px;
+    border: solid rgb(55, 55, 55) 1px;
+    border-radius: 10px;
+    
     
 }
