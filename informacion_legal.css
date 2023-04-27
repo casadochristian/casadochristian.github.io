@@ -1,46 +1,153 @@
-body{
-    background-color: #efefef;
-    width: 100%;
-    text-align: center;
-}
-
-body h2{
-    margin-top: 40px;
-    text-decoration: underline;
-}
-
-body p{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.footer_final {
-    
-    text-align: center;
-    margin-bottom: 0px;
-}
-
-.logo_footer img{
-    margin-top: 30px;
-    height: 100px;
-    width: 100px;
-    margin-left: 1300px;
-    display: inline-block;
-    border-radius: 12px;
-}  
-
-.enlaces a {
-    text-decoration: none;
-    color: black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 3px;
-    letter-spacing: 2px;
-    margin: 0px;    
+
 }
 
-.enlaces a:hover {
-    border: solid rgb(55, 55, 55) 1px;
-    border-radius: 10px;
+body{
+    background-color: #0c1022;
     
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #40424c;
+    opacity: 0.9;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: rgb(255, 255, 255);
+}
+
+.header .logo{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.navbar{
+    margin-right: 25px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 400;
     
+}
+
+.navbar #activated{
+    color: rgb(255, 72, 72);
+}
+
+.navbar #activated:hover{
+    color: white;
+    transition: .3s;
+}
+
+.navbar #noactivated:hover{
+    color: rgb(255, 72, 72);
+    transition: .3s;
+
+}
+
+.saludo{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 15%;
+    display: flex;
+    justify-content: center;
+    font-weight: 800; 
+    font-size: larger;
+}
+
+.saludo p{
+    font-weight: 300;
+}
+
+.legal{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.legal h2{
+    text-align: center;
+    font-weight: 800;
+}
+
+.legal p{
+    font-weight: 250;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    top: 100%;
+    background-color: #40424c;
+    opacity: 0.9;
+}
+
+.footer .logos img{
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+#t:hover{
+    background-color: rgb(0, 72, 255);
+    transition: .2s;
+    border-radius: 15px;
+    opacity: .5;
+}
+
+#i:hover{
+    background-color:#ff25ff;
+    transition: .2s;
+    border-radius: 15px;
+    opacity: .5;
+}
+
+.footer .enlaces{
+    margin-left: auto;
+    margin-right: 15px;
+    font-weight: 100;
+    
+}
+
+.footer .enlaces a{
+    text-decoration: none;
+    margin-left: 15px;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.footer .enlaces a:hover{
+    background-color: rgb(255, 72, 72);
+    opacity: .9;
+    transition: .2s;
+}
+
+.footer p{
+    margin-left: 50px;
 }

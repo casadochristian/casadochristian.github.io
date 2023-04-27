@@ -1,203 +1,197 @@
-body {
-    background-color: #efefef;
-    width: 100%;
-}
-
-.contenedor {
-    height: fit-content;
-    width:100%;
-}
-
-.header_nav {
-    background-color: #30A6FF;
-    color:rgb(255, 255, 255);
-    width: 100%;
-    text-align: center;
-    height: 175px;
-    margin-top: -19px;
-}
-
-.header_nav a {
-    border: none;
-    text-align:left;
-    margin-left:0px;
-    color: rgb(255, 255, 255);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size:25px;
-    text-decoration: none;
+
 }
 
-.header_nav h1 {
-    text-align:left;
-    margin-left:45px;
-    color: rgb(255, 255, 255);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size:25px;
-}
-
-.header_nav p {
-    text-align: right;
-    margin-top: -45px;
-    margin-right: 45px;
-    font-size: 20px;
-}
-
-.header_nav h2{
-    text-align:left;
-    margin-left:45px;
-}
-
-.header_nav h3 {
-    text-align:left;
-    margin-left:35px;
-}
-
-.header_nav h4 {
-    text-align: left;
-    margin-left: 45px;
-    margin-top: -15px;
-}
-
-.navegador{
-    margin-top: 30px;
-}
-
-.navegador a {
-    color:rgb(255, 255, 255);
-    text-decoration:none;
-    font-size:18px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 3px;
-    letter-spacing: 2px;
-    margin: 0px;  
-}
-
-.navegador a:hover {
-    border: solid lightblue 1px;
-    border-radius: 3px;
+body{
+    background-color: #0c1022;
     
 }
 
-.atraer {
-    margin-top: -10px;
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #40424c;
+    opacity: 0.9;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: rgb(255, 255, 255);
 }
 
-.nosotros {
+.header .logo{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.navbar{
+    margin-right: 25px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.navbar #activated{
+    color: rgb(255, 72, 72);
+}
+
+.navbar #activated:hover{
+    color: white;
+    transition: .3s;
+}
+
+.navbar #noactivated:hover{
+    color: rgb(255, 72, 72);
+    transition: .3s;
+
+}
+
+.saludo{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 15%;
+    display: flex;
+    justify-content: center;
+    font-weight: 800; 
+    font-size: larger;
+}
+
+.saludo p{
+    font-weight: 300;
+}
+
+.nosotros{
+    position: absolute;
+    top: 40%;
+    left: 50%;
     text-align: center;
-    width: 100%;   
+    transform: translate(-50%,-50%);
 }
 
-.nosotros span {
-    text-decoration:underline;
-    font-size:18px;
+.nosotros p{
+    font-weight: 300;
 }
 
-.imagen_coche {
-    text-align: center;
-    margin-bottom: 15px;
+.nosotros span{
+    font-weight: 400;
+    text-decoration: underline;
 }
 
-#img1 {
-    height:170px;
-    width:300px;
-    border-radius: 5px;
-    padding: 2px;   
+.imagenes{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    padding: 3px;
+    width: fit-content;
 }
 
-#img1:active{
-    border: inset black 1px;
-}
-
-#img1:hover {
-    transition: 0.5s;
-    padding: 5px;
-}
-
-#img2 {
-    height:170px;
-    width:300px;
-    border-radius: 5px;
-    padding: 2px;
+.imagenes img{
     margin-left: 10px;
+    border-radius: 3px;
+    height: 180px;
+    width: 300px;
+    margin-top: 3px;
 }
 
-#img2:active{
-    border: inset black 1px;
+#audi:hover{
+    opacity: 0.5;
+    transition: .5s;
 }
 
-#img2:hover {
+#bmw:hover{
+    transition: .5s;
+    border-radius: 50%;
+}
+
+
+#mercedes:hover{
     transition: .5s;
     padding: 5px;
 }
 
-#img3 {
-    height:170px;
-    width:300px;
-    border-radius: 5px; 
-    margin-left: 10px;
-    padding: 2px;
-    margin-top:1px;
+
+#mustang:hover{
+    transition: .5s;
+    border: 2px solid orange;
 }
 
-#img3:active{
-    border: inset black 1px;
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 110%;
+    background-color: #40424c;
+    opacity: 0.9;
+
 }
 
-#img3:hover {
-    transition: .7s;
-    padding: 5px;
+.footer .logos img{
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    border: 2px solid white;
+    border-radius: 15px;
 }
 
-#img4 {
-    height:170px;
-    width:300px;
-    border-radius: 5px;
-    padding: 2px; 
-    margin-left: 10px;
-    margin-top:1px;
+#t:hover{
+    background-color: rgb(0, 72, 255);
+    transition: .2s;
+    border-radius: 15px;
+    opacity: .5;
 }
 
-#img4:active{
-    border: inset black 1px;
+#i:hover{
+    background-color:#ff25ff;
+    transition: .2s;
+    border-radius: 15px;
+    opacity: .5;
 }
 
-#img4:hover {
-    transition: .7s;
-    padding: 5px;
+.footer .enlaces{
+    margin-left: auto;
+    margin-right: 15px;
+    font-weight: 100;
     
 }
 
-.footer_final {
-    background-color: #30A6FF;
-    text-align: center;
-    margin-bottom: 0px;
-}
-
-.logo_footer img{
-    margin-top: 30px;
-    height: 100px;
-    width: 100px;
-    margin-left: 1300px;
-    display: inline-block;
-    border-radius: 12px;
-}
-
-.enlaces a {
+.footer .enlaces a{
     text-decoration: none;
-    color:rgb(255, 255, 255);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 15px;
+    border: 1px solid white;
+    border-radius: 7px;
     padding: 3px;
-    letter-spacing: 2px;
-    margin: 0px;    
 }
 
-.enlaces a:hover {
-    border: solid lightblue 1px;
-    border-radius: 3px;
-    
+.footer .enlaces a:hover{
+    background-color: rgb(255, 72, 72);
+    opacity: .9;
+    transition: .2s;
 }
 
-
-
-
-
+.footer p{
+    margin-left: 50px;
+}

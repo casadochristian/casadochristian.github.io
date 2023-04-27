@@ -112,3 +112,63 @@ body {
     border-radius: 3px;
     
 }
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 100%;
+    background-color: #40424c;
+    opacity: 0.9;
+
+}
+
+.footer .logos img{
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+#t:hover{
+    background-color: rgb(0, 72, 255);
+    transition: .2s;
+    border-radius: 15px;
+    opacity: .5;
+}
+
+#i:hover{
+    background-color:#ff25ff;
+    transition: .2s;
+    border-radius: 15px;
+    opacity: .5;
+}
+
+.footer .enlaces{
+    margin-left: auto;
+    margin-right: 15px;
+    font-weight: 100;
+    
+}
+
+.footer .enlaces a{
+    text-decoration: none;
+    margin-left: 15px;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.footer .enlaces a:hover{
+    background-color: rgb(255, 72, 72);
+    opacity: .9;
+    transition: .2s;
+}
+
+.footer p{
+    margin-left: 50px;
+}

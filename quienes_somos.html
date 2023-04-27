@@ -9,53 +9,51 @@
     <title>AutosWorld - Quiénes somos</title>
 </head>
 <body>
-    <div id="contenedor">
-        <header class="header_nav">
-            <h1><a href="index.html">AutosWorld.com</a></h1>
-            <p>El mejor buscador. !Hecho para ti!</p>
-            <nav>
-                <div class="navegador">
-                    <a href="index.html">Inicio</a>
-                    <a href="areas_trabajo.html">Áreas de trabajo</a>
-                    <a href="contacto.html">Contacto</a>
-                </div>
-                <br><br>
-                <div class="atraer">
-                    <h2>¿Con cual te quedas?<br>
-                        <h4>¡Encuentra las mejores ofertas en un mismo lugar!</h4>
-                    </h2>   
-                </div>   
-            </nav>
-        </header>
-        <div class="nosotros">
-            <p> Bienvenido a nuestra página web dedicada a los coches, donde podrás encontrar información sobre los últimos modelos de automóviles, noticias sobre la industria automotriz y reseñas de los mejores vehículos del mercado. <br>
-                Nuestro equipo de expertos en coches está siempre al tanto de las últimas tendencias y avances en la tecnología automotriz, y se asegura de proporcionar información precisa y actualizada para ayudarte a tomar decisiones informadas al comprar un automóvil. <br>
-                Trabajamos con marcas como Audi, Mustang, Bmw o Mercedes. <br>
-                En definitiva, nuestra página web es un recurso completo para todos aquellos que aman los coches y quieren estar informados sobre las últimas novedades del sector.
-                Además de las últimas ofertas y promociones. <br>
-                Pincha en cada imagen para ver más información ⬇️.
-                <br><br>
-                <span>¡Te invitamos a que navegues por nuestra web y descubras todo lo que tenemos que ofrecer!</span> 
-            </p>  
+    <header class="header">
+        <a href="index.html" class="logo">AutosWorld.</a>
+
+        <nav class="navbar">
+            <a href="index.html" id="activated">Home</a>
+            <a href="areas_trabajo.html" id="noactivated">Áreas de trabajo</a>
+            <a href="contacto.html" id="noactivated">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="saludo">
+        <div>
+            <h1>Bienvenidos a AutosWorld.</h1>
+            <p>Tu espacio favorito sobre el mundo de los coches!</p> 
         </div>
-        <div class="imagen_coche">
-            <a href="https://www.audi.es/es/web/es/compra/promociones.html" target="_blank"><img id= "img1" src="imagenes/audi.jpeg" alt="audi" title="Coche audi"></a>
-            <a href="https://www.ford.es/turismos/mustang/promociones/particulares" target="_blank"><img id= "img2" src="imagenes/mustang.jpeg" alt="mustang" title="Coche mustang"></a>
-            <a href="https://www.bmw.es/es/informacion/promociones/ofertas/index.html" target="_blank"><img id= "img3" src="imagenes/bmw2.jpeg" alt="bmw" title="Coche bmw"></a>
-            <a href="https://mercedes-benz.motorysa.com/promociones" target="_blank"><img id= "img4" src="imagenes/mercedes.jpeg" alt="mercedes" title="Coche mercedes"></a>   
-        </div>
+    </section>
+
+    <div class="nosotros">
+        <p> Página web donde podrás encontrar información y ofertas sobre los últimos modelos de automóviles y noticias sobre la industria automotriz. <br><br>
+            Nuestro equipo de expertos en coches se aseguran de proporcionar información precisa y actualizada para ayudarte a tomar decisiones informadas al comprar un automóvil.
+            En definitiva, nuestra página web es un recurso completo para todos aquellos que aman los coches y quieren estar informados sobre las últimas novedades del sector. <br><br>
+            En esta sección dispones de enlaces directos a las últimas promociones de las marcas con las que trabajamos. Todas ellas revisadas por nuestros expertos. Pincha en las diferentes y compruébalo tú mismo. <br><br>
+            <span>¡Te invitamos además, a que navegues por nuestra web, y descubras todo lo que tenemos que ofrecer!</span>
+        </p>
+    </div>
+
+    <div class="imagenes">
+        <a href="https://www.audi.es/es/web/es/compra/promociones.html" target="_blank"><img id="audi" src="imagenes/audi.jpeg" alt="audi" title="audi"></a>
+        <a href="https://www.bmw.es/es/informacion/promociones/ofertas/index.html" target="_blank"><img id="bmw" src="imagenes/bmw2.jpeg" alt="bmw" title="bmw"></a>
+        <a href="https://mercedes-benz.motorysa.com/promociones" target="_blank"><img id="mercedes" src="imagenes/mercedes.jpeg" alt="mercedes" title="mercedes"></a>
+        <a href="https://www.ford.es/turismos/mustang/promociones/particulares" target="_blank"><img id="mustang" src="imagenes/mustang.jpeg" alt="mustang" title="mustang"></a>    
     </div>
 </body>
-<footer class="footer_final">
-    <div class="logo_footer">
-        <a href="index.html"><img src="Logo/AutosWorldLogo.png" alt="Logo" title="Inicio"></a>
+
+<footer class="footer">
+    <div class="logos">
+        <a href="www.twitter.com" target="_blank"><img id="t" src="iconos/gorjeo.png" alt="twitter" title="twitter"></a>
+        <a href="www.instagram.com" target="_blank"><img id="i" src="iconos/instagram.png" alt="instagram" title="instagram"></a>
     </div>
+
+    <p>Copyright - Todos los drechos reservados.</p>
+
     <div class="enlaces">
-        <a href="acerca_de.html">Acerca de</a>
-        <br><br>
         <a href="informacion_legal.html">Información legal</a>
-        <br><br>
-        <a href="nuestro_instagram.html">Instagram Oficial</a>
-    </div>   
+        <a href="privacidad.html">Política de privacidad</a>
+    </div>
 </footer>
 </html>
