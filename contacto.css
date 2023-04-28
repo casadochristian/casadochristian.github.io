@@ -74,12 +74,11 @@ body{
 }
 
 .saludo p{
-    font-weight: 300;
+    font-weight: 100;
+    font-style: italic;
+    
 }
 
-.saludo #contacto{
-    font-weight: 150;
-}
 
 .formulario{
     position: absolute;

@@ -62,20 +62,7 @@ body{
 
 }
 
-.saludo{
-    width: 100%;
-    height: fit-content;
-    position: absolute;
-    top: 15%;
-    display: flex;
-    justify-content: center;
-    font-weight: 800; 
-    font-size: larger;
-}
 
-.saludo p{
-    font-weight: 300;
-}
 
 .legal{
     position:absolute;

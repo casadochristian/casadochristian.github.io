@@ -74,7 +74,9 @@ body{
 }
 
 .saludo p{
-    font-weight: 300;
+    font-weight: 100;
+    font-style: italic;
+    
 }
 
 .nosotros{
@@ -83,6 +85,7 @@ body{
     left: 50%;
     text-align: center;
     transform: translate(-50%,-50%);
+    max-height: 280px;
 }
 
 .nosotros p{
@@ -94,46 +97,19 @@ body{
     text-decoration: underline;
 }
 
-.imagenes{
-    display: flex;
+.logo-empresa{
     position: absolute;
-    justify-content: center;
     left: 50%;
-    top: 80%;
+    top: 75%;
     transform: translate(-50%, -50%);
-    padding: 3px;
     width: fit-content;
 }
 
-.imagenes img{
-    margin-left: 10px;
-    border-radius: 3px;
-    height: 180px;
-    width: 300px;
-    margin-top: 3px;
-}
-
-#audi:hover{
-    opacity: 0.5;
-    transition: .5s;
-}
-
-#bmw:hover{
-    transition: .5s;
-    border-radius: 50%;
+.logo-empresa img{
+    border-radius: 10px;
 }
 
 
-#mercedes:hover{
-    transition: .5s;
-    padding: 5px;
-}
-
-
-#mustang:hover{
-    transition: .5s;
-    border: 2px solid orange;
-}
 
 
 .footer{
