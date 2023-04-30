@@ -28,7 +28,6 @@ body{
 }
 
 .header .logo{
-    text-decoration: none;
     font-size: 25px;
     font-weight: 600;
     margin-left: 25px;
@@ -113,9 +112,6 @@ body{
     color: #0c1022;
 }
 
-
-
-
 .aside-1{
     background-color: aliceblue;
     position: absolute;
@@ -129,6 +125,7 @@ body{
     overflow: scroll;
     box-shadow: -2px -2px 3px whitesmoke;
     padding: 5px;
+    
 }
 
 .aside-1 h3{
@@ -230,6 +227,59 @@ body{
 }
 
 
+@media(max-width:1030px){
+    .section{
+        top: 60%;
+        left: 30%;
+        transform: translate(-50%,-50%);
+    }
+
+    .aside-1{
+        top: 120%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 40%;
+        max-height: 40%;
+
+    }
+
+    .aside-2{
+        top: 170%;
+        left: 50%;
+        transform: translate(-50%,-50%); 
+    }
+
+    .footer{
+        top:200%;
+    }
+}
+
+@media (max-width:865px){
+    .footer{
+        width: 100%;
+        height: 300px;
+    }
+
+
+    .logos{
+        position: absolute;
+        margin-left: 37%;
+        top: 7px;
+    }
+
+    .footer .enlaces{
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 30%;
+        
+    }
+
+    .footer p{
+        position: absolute;
+        margin-left: 32%;
+        
+    }
+}
 
 
 

@@ -8,88 +8,91 @@
     <link rel="stylesheet" href="contacto.css">
     <title>AutosWorld - Contacto</title>
 </head>
-<body>
-    <header class="header">
-        <a href="index.html" class="logo">AutosWorld.</a>
-
-        <nav class="navbar">
-            <a href="index.html" id="activated">Home</a>
-            <a href="quienes_somos.html" id="noactivated">Quiénes somos</a>
-            <a href="areas_trabajo.html" id="noactivated">Áreas de trabajo</a>
-        </nav>
-    </header>
-
-    <section class="saludo">
-        <div>
-            <h1>Bienvenidos a AutosWorld.</h1>
-            <p>Contáctanos sin ningún compromiso</p> <br> 
-            <p id="contacto">Nuestro teléfono de contacto: 987654321</p>
-            <p id="contacto">Nuestro email de contacto: autosworld@info.com</p>
-        </div>
-    </section>
-
-    <div class="formulario">
-        <form action="procesarPeticion.jsp" method="post">
-            
-            <h3>Mándenos sus datos e intereses y nos pondremos en contacto con usted para más información:</h3>
+<div class="contendedor-todo">
+    <body>
+        <header class="header">
+            <a href="index.html" class="logo">AutosWorld.</a>
     
-            <label for="nombre">Nombre:</label>
-            <input id="nombre" type="text" name="nombre" placeholder="Escriba su nombre:" required><br><br>
+            <nav class="navbar">
+                <a href="index.html" id="activated">Home</a>
+                <a href="quienes_somos.html" id="noactivated">Quiénes somos</a>
+                <a href="areas_trabajo.html" id="noactivated">Áreas de trabajo</a>
+            </nav>
+        </header>
     
-            <label for="apellidos">Apellidos:</label>
-            <input id="apellidos" type="text" name="apellidos" placeholder="Escriba su apellido:"required><br><br>
-            
-            <label for="email">Email:</label>
-            <input id="email" type="email" name="email" placeholder="autosworld@info.com" required><br><br>
-            
-            <label for="movil">Teléfono:</label>
-            <input id="telefono" type="tel" name="telefono" placeholder="Escriba su teléfono:" required><br><br>
+        <section class="saludo">
+            <div>
+                <h1>Bienvenidos a AutosWorld.</h1>
+                <p>Contáctanos sin ningún compromiso</p> <br> 
+                <p id="contacto">Nuestro teléfono de contacto: 987654321</p>
+                <p id="contacto">Nuestro email de contacto: autosworld@info.com</p>
+            </div>
+        </section>
     
-            <label for="edad">Seleccione su edad:</label>
-            <input id="edad" type="number" name="edad" min="18" max="100" step="1" placeholder="25"required><br><br>
-    
-            <label for="modelo">Elija modelo/s de coche del que desea más información:</label><br>
-            <input id="modelo" type="checkbox" name="modelo">Audi
-            <input id="modelo" type="checkbox" name="modelo">Mustang
-            <input id="modelo" type="checkbox" name="modelo">Bmw
-            <input id="modelo" type="checkbox" name="modelo">Mercedes
-            <br><br>
-    
-            <label for="dia-contacto">Seleccione día(L-V) y nos pondremos en contacto con usted en la mayor brevedad posible:</label><br>
-            <input id="dia-contacto" type="date" name="dia-contatco" required>
-            <br><br>
-
-            <label for="forma-contacto">¿Cómo nos ponemos en contacto con usted?</label><br>
-            <input type="radio" name="forma-contacto" value="E"/>Email	
-            <input type="radio" name="forma-contacto" value="M"/>Móvil <br><br>
-    
-            <label for="mensaje-adicional">Observaciones:</label><br>
-            <textarea id="mensaje-adicional" name="mensaje-adicional" placeholder="¿Algún otro dato de interés?"></textarea><br><br>
-            
-            <label for="aceptar-terminos">Acepto los términos y condiciones:</label>
-            <input id="aceptar-terminos" type="checkbox" name="aceptar-terminos" required><br>
-            
-            <input id="boton" type="submit" value="Enviar">
-            <input id="reset" type="reset" value="Resetear formulario">
-            <br><br>
+        <div class="formulario">
+            <form action="procesarPeticion.jsp" method="post">
                 
-        </form>
-    </div>
-</body>
+                <h3>Mándenos sus datos e intereses y nos pondremos en contacto con usted para más información:</h3>
+        
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" type="text" name="nombre" placeholder="Escriba su nombre:" required><br><br>
+        
+                <label for="apellidos">Apellidos:</label>
+                <input id="apellidos" type="text" name="apellidos" placeholder="Escriba su apellido:"required><br><br>
+                
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="autosworld@info.com" required><br><br>
+                
+                <label for="movil">Teléfono:</label>
+                <input id="telefono" type="tel" name="telefono" placeholder="Escriba su teléfono:" required><br><br>
+        
+                <label for="edad">Seleccione su edad:</label>
+                <input id="edad" type="number" name="edad" min="18" max="100" step="1" placeholder="25"required><br><br>
+        
+                <label for="modelo">Elija modelo/s de coche del que desea más información:</label><br>
+                <input id="modelo" type="checkbox" name="modelo">Audi
+                <input id="modelo" type="checkbox" name="modelo">Mustang
+                <input id="modelo" type="checkbox" name="modelo">Bmw
+                <input id="modelo" type="checkbox" name="modelo">Mercedes
+                <br><br>
+        
+                <label for="dia-contacto">Seleccione día(L-V) y nos pondremos en contacto con usted en la mayor brevedad posible:</label><br>
+                <input id="dia-contacto" type="date" name="dia-contatco" required>
+                <br><br>
+    
+                <label for="forma-contacto">¿Cómo nos ponemos en contacto con usted?</label><br>
+                <input type="radio" name="forma-contacto" value="E"/>Email	
+                <input type="radio" name="forma-contacto" value="M"/>Móvil <br><br>
+        
+                <label for="mensaje-adicional">Observaciones:</label><br>
+                <textarea id="mensaje-adicional" name="mensaje-adicional" placeholder="¿Algún otro dato de interés?"></textarea><br><br>
+                
+                <label for="aceptar-terminos">Acepto los términos y condiciones:</label>
+                <input id="aceptar-terminos" type="checkbox" name="aceptar-terminos" required><br>
+                
+                <input id="boton" type="submit" value="Enviar">
+                <input id="reset" type="reset" value="Resetear formulario">
+                <br><br>
+                    
+            </form>
+        </div>
+    </body>
+    
+    <footer class="footer">
+        <div class="logos">
+            <a href="www.twitter.com" target="_blank"><img id="t" src="iconos/gorjeo.png" alt="twitter" title="twitter"></a>
+            <a href="www.instagram.com" target="_blank"><img id="i" src="iconos/instagram.png" alt="instagram" title="instagram"></a>
+        </div>
+    
+        <p>Copyright - Todos los drechos reservados.</p>
+    
+        <div class="enlaces">
+            <a href="informacion_legal.html">Información legal</a>
+            <a href="privacidad.html">Política de privacidad</a>
+        </div>
+    </footer>
+</div>
 
-<footer class="footer">
-    <div class="logos">
-        <a href="www.twitter.com" target="_blank"><img id="t" src="iconos/gorjeo.png" alt="twitter" title="twitter"></a>
-        <a href="www.instagram.com" target="_blank"><img id="i" src="iconos/instagram.png" alt="instagram" title="instagram"></a>
-    </div>
-
-    <p>Copyright - Todos los drechos reservados.</p>
-
-    <div class="enlaces">
-        <a href="informacion_legal.html">Información legal</a>
-        <a href="privacidad.html">Política de privacidad</a>
-    </div>
-</footer>
 
 </html>
 
