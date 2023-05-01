@@ -33,32 +33,47 @@ body{
     margin-left: 25px;
 }
 
-.navbar{
+nav{
     margin-right: 25px;
-}
-
-.navbar a{
-    color: white;
+	color: white;
     text-decoration: none;
     margin-left: 25px;
     font-size: 18px;
     font-weight: 400;
-    
+}
+.menu{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+.menu > li:hover{
+	background-color: grey;
+}
+.desplegable{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.menu li:hover .desplegable{
+	display: block;
+}
+.desplegable li:hover{
+	background-color: black;
 }
 
-.navbar #activated{
-    color: rgb(255, 72, 72);
-}
-
-.navbar #activated:hover{
-    color: white;
-    transition: .3s;
-}
-
-.navbar #noactivated:hover{
-    color: rgb(255, 72, 72);
-    transition: .3s;
-
+.desplegable li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
 }
 
 .saludo{
